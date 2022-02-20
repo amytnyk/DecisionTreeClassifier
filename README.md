@@ -13,6 +13,10 @@ clf.fit(X, y)
 
 print(f'Accuracy: {sum(clf.predict(X_test) == y_test) / len(y_test):.5f}')
 ```
+Or you can run test.py to compare custom CLF and sklearn CLF:
+```bash
+python test.py
+```
 ### Contributors
 * Oleksii Mytnyk
 * Dmytro Mykytenko
