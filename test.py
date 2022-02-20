@@ -1,6 +1,3 @@
-## DecisionTreeClassifier
-### Usage
-```python
 from sklearn.datasets import load_iris
 from DecisionTreeClassifier import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
@@ -12,7 +9,3 @@ clf = DecisionTreeClassifier(max_depth=15)
 clf.fit(X, y)
 
 print(f'Accuracy: {sum(clf.predict(X_test) == y_test) / len(y_test):.5f}')
-```
-### Contributors
-* Oleksii Mytnyk
-* Dmytro Mykytenko
